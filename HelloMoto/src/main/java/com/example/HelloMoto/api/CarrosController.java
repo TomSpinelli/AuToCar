@@ -46,8 +46,8 @@ public class CarrosController {
 		List<Carro> carros = service.getCarrosByTipo(tipo);
 		
 		return carros.isEmpty()?
-					ResponseEntity.ok(carros):	
-					ResponseEntity.noContent().build();
+				ResponseEntity.noContent().build():
+				ResponseEntity.ok(carros);
 			
 	}
 	
