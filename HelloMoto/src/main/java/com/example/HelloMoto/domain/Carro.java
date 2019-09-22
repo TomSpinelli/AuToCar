@@ -16,7 +16,6 @@ import lombok.Setter;
 @Getter
 @Setter
 @EqualsAndHashCode
-@NoArgsConstructor
 @AllArgsConstructor
 public class Carro {
 
