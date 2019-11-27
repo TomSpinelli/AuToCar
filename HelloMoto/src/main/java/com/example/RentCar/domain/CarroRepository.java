@@ -1,4 +1,4 @@
-package com.example.HelloMoto.domain;
+package com.example.RentCar.domain;
 
 import java.util.List;
 

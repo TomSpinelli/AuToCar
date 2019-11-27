@@ -1,4 +1,4 @@
-package com.example.HelloMoto.domain;
+	package com.example.RentCar.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

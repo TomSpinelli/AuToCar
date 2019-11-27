@@ -1,4 +1,4 @@
-package com.example.HelloMoto.api;
+package com.example.RentCar.api;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.HelloMoto.domain.Carro;
-import com.example.HelloMoto.domain.CarroService;
+import com.example.RentCar.domain.Carro;
+import com.example.RentCar.domain.CarroService;
 
 @RestController
 @RequestMapping("/api/v1/carros")
